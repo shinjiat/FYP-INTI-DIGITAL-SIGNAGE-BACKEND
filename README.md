@@ -38,7 +38,7 @@ There are only 2 PHP files created [here](https://github.com/shinjiat/INTI-DIGIT
 ****************************************************************************************************************************************
 ## `Push Notification API`
 This API was an extra feature that I implemented for our clients.
-For this to work, when a student open this APP within INTI College, if one of the beacons detected the student's phone, the APP will register a unique token and insert the token into database via [insert.php](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/blob/master/source%20codes/notification/insert.php).
+For this to work, when a student open this APP within INTI College, if one of the beacons in the College detected the student's phone, the APP will register a unique token and insert the token into database via [insert.php](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/blob/master/source%20codes/notification/insert.php).
 
 However, the token will change if the user reinstall the APP. So to reduce the number of "orphan" tokens, I insert the token together with the device's UUID, in such a way that if the device's UUID already exists in the database, then update the token. Else, insert a new token.
 
