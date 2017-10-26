@@ -4,20 +4,16 @@ It's an mobile app that is cross-platform on Android and iOs for our college, IN
 
 The hightlights for me in this project are...
 
+* [To create login API for users and guests on Android.](#login-api)
 * [To create a backend push notification API.](#push-notification-api)
-* [To implement an app to interact with Estimote beacons.](#Header2)
+* [To implement an app to interact with Estimote beacons.](#estimote-beacons)
+* [To assist another member on backend map editor.](#map-editor)
 
 
+## `Login API`
 
 ## `Push Notification API`
-4
 
+## `Estimote beacons`
 
-## Header2
-2
-## Header3
-3
-## Header4
-1
-
-
+## `Map Editor`
