@@ -30,7 +30,7 @@ Provide access to non INTI students (app will generate a token and insert to dat
 #### Screenshot
 ![image](https://github.com/shinjiat/Android-Login/blob/master/AndroidLogin/ScreenShot_20170829203644.png)
 
-There are only 2 PHP files created [here](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/tree/master/source%20codes/login), one is to insert token for Guests and another one is to compare user's parameters to the database to return either 0 or 1.
+There are only 2 PHP files created [here](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/tree/master/source%20codes/login), `insert.php` inserts tokens to grant access to Guests and `login.php` to compare user's parameters to the database to return either 0 or 1.
 
 
 
