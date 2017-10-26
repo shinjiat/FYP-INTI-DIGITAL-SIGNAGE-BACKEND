@@ -64,7 +64,7 @@ Can't show anything as the beacons have already returned to College :\
 ****************************************************************************************************************************************
 
 ## `Map Editor`
-Hostinger's subscription fees had run out, couldn't get any screenshot of it :\
+Hostinger's subscription fees ran out, couldn't get any screenshot of it :\
 
 [Back to top](#contents)
 ****************************************************************************************************************************************
