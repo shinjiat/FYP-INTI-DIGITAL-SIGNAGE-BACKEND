@@ -4,7 +4,7 @@ The app is a native app to both Android and iOS platforms and is designed for ou
 
 The hightlights for me in this project are...
 
-## `Tasks`
+## `Contents`
 * [To create login API for users and guests on Android.](#login-api)
 * [To create a backend push notification API.](#push-notification-api)
 * [To implement an app to interact with Estimote beacons.](#estimote-beacons)
@@ -35,7 +35,7 @@ Provide access to non INTI students (app will generate a token and insert to dat
 #### Screenshot
 ![image](https://github.com/shinjiat/Android-Login/blob/master/AndroidLogin/ScreenShot_20170829203644.png)
 
-[Back to top](#tasks)
+[Back to top](#contents)
 
 ## `Push Notification API`
 
