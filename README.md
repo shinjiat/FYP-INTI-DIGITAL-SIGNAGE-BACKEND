@@ -13,6 +13,8 @@ The hightlights for me in this project are...
 * [To assist another member on backend map editor/constructing database.](#map-editor)
 
 
+****************************************************************************************************************************************
+****************************************************************************************************************************************
 ## `Login API`
 This is a login screen created for my Final Year Project(Android App) that interacts with online database.
 This login screen provide user login (require student login credentials) and guest login (generate session token).
@@ -37,7 +39,6 @@ There are only 2 PHP files created [here](https://github.com/shinjiat/INTI-DIGIT
 [Back to top](#contents)
 ****************************************************************************************************************************************
 ****************************************************************************************************************************************
-****************************************************************************************************************************************
 ## `Push Notification API`
 This API was an extra feature that I implemented for our clients.
 For this to work, when a student open this APP within INTI College, if one of the beacons in the College detected the student's phone, the APP will register a unique token and insert the token into database via [insert.php](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/blob/master/source%20codes/notification/insert.php).
@@ -52,6 +53,7 @@ So this basically means that the push notifications will only work, only when st
 ![image](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/blob/master/screenshots/ScreenShot_20171027041955.png?raw=true)
 
 [Back to top](#contents)
+****************************************************************************************************************************************
 ****************************************************************************************************************************************
 ## `Estimote beacons`
 
