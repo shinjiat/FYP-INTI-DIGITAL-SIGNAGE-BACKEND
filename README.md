@@ -1,6 +1,6 @@
 # INTI DIGITAL SIGNAGE
 This is my Final Year Project that I have completed in July of 2017. 
-It's an mobile app that is cross-platform on Android and iOs for our college, INTI International College Subang.
+The app is a native app to both Android and iOS platforms and is designed for our college, INTI International College Subang.
 
 The hightlights for me in this project are...
 
@@ -11,6 +11,8 @@ The hightlights for me in this project are...
 
 
 ## `Login API`
+[Please check here](https://github.com/shinjiat/Android-Login)
+
 
 ## `Push Notification API`
 
