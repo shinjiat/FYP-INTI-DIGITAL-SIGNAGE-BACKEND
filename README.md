@@ -33,7 +33,7 @@ Provide access to non INTI students (app will generate a token and insert to dat
 There are only 2 PHP files created [here](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/tree/master/source%20codes/login) for this API, [insert.php](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/blob/master/source%20codes/login/insert.php) inserts tokens to grant access to Guests and [login.php](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/blob/master/source%20codes/login/login.php) to compare user's parameters to the database to return either 0 or 1.
 
 [Back to top](#contents)
-
+****************************************************************************************************************************************
 ## `Push Notification API`
 This API was an extra feature that I implemented for our clients.
 For this to work, when a student open this APP within INTI College, if one of the beacons detected the student's phone, the APP will register a unique token and insert the token into database via [insert.php](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/blob/master/source%20codes/notification/insert.php).
@@ -44,11 +44,11 @@ To not annoy the student too much, the token is deleted when the APP is closed v
 
 So this basically means that the push notifications will only work, only when students or guests are within the College area.
 
-
-
 #### Screenshot
 ![image](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/blob/master/screenshots/ScreenShot_20171027041955.png?raw=true)
 
+[Back to top](#contents)
+****************************************************************************************************************************************
 ## `Estimote beacons`
 
 ## `Map Editor`
