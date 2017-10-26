@@ -11,7 +11,7 @@ The hightlights for me in this project are...
 * [To assist another member on backend map editor.](#map-editor)
 
 
-## `Login API`
+## `Login API` or [click here](https://github.com/shinjiat/Android-Login)
 [Or here](https://github.com/shinjiat/Android-Login)
 
 This is a login screen created for my Final Year Project(Android App) that interacts with online database.
