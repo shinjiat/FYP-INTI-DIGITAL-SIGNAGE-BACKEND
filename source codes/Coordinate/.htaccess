@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} buttons-for-website.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*7makemoneyonline.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*semalt.com/ [NC]
+RewriteRule ^(.*)$ – [F,L]
