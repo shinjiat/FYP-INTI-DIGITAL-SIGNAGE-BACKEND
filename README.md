@@ -57,4 +57,7 @@ So this basically means that the push notifications will only work, only when st
 ****************************************************************************************************************************************
 ## `Estimote beacons`
 
+Can't show anything as the beacons have already returned to College :\
+
 ## `Map Editor`
+Hostinger's subscription fees had run out, couldn't get any screenshot of it :\
