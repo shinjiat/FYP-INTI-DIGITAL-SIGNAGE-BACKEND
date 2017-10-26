@@ -2,6 +2,8 @@
 This is my Final Year Project that I have completed in July of 2017. 
 The app is a native app to both Android and iOS platforms and is designed for our college, INTI International College Subang.
 
+Unfortunately, this FYP and many of the group projects were hosted on Hostinger by my friend and his account got deleted(probably due to no continuous fees), which results me unable to get some screenshots for the functions mentioned below.
+
 The hightlights for me in this project are...
 
 ## `Contents`
