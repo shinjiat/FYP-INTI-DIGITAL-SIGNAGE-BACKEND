@@ -19,6 +19,7 @@ This login screen provide user login (require student login credentials) and gue
 
 #### Permissions
      ___________
+     
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 *INTERNET        : To talk to API which then returns 0 or 1 based on the parameters(Username and Password) passed to API
@@ -26,14 +27,17 @@ READ_PHONE_STATE : To generate UUID based on IMEI which is then insert to online
     
 #### User Login
      __________
+     
 Login with student ID and password, which shares the same login credentials with the campus website.(to be done by INTI, as for now we are logging in from online database). The app will student ID and password to API, the API then compare the parameters with the database and return 0 or 1 based on result.
 
 #### Guest Login
      ___________
+     
 Provide access to non INTI students (app will generate a token and insert to database in order to grant access to guests)
 
 #### Screenshot
      __________
+     
 ![image](https://github.com/shinjiat/Android-Login/blob/master/AndroidLogin/ScreenShot_20170829203644.png)
 
 There are only 2 PHP files created [here](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/tree/master/source%20codes/login) for this API, [insert.php](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/blob/master/source%20codes/login/insert.php) inserts tokens to grant access to Guests and [login.php](https://github.com/shinjiat/INTI-DIGITAL-SIGNAGE/blob/master/source%20codes/login/login.php) to compare user's parameters to the database to return either 0 or 1.
