@@ -4,15 +4,7 @@ This is my Final Year Project that I have completed in July of 2017. It's an mob
 The hightlights for me in this project are...
 
 * [To create a backend push notification API.](#Header1)
-* [To create a backend push notification API.](#Header1)
-* [To create a backend push notification API.](#Header1)
-* [To create a backend push notification API.](#Header1)
-* [To create a backend push notification API.](#Header1)
-* [To create a backend push notification API.](#Header1)
-* [To create a backend push notification API.](#Header1)
-* [To create a backend push notification API.](#Header1)
-* [To create a backend push notification API.](#Header1)
-* [To create a backend push notification API.](#Header1)
+* [To implement an app to interact with Estimote beacons.](#Header2)
 
 
 
