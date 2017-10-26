@@ -5,7 +5,7 @@ The app is a native app to both Android and iOS platforms and is designed for ou
 The hightlights for me in this project are...
 
 ## `Contents`
-* [To create login API for users and guests on Android.](#login-api) *(Solo)*
+* [To create login API for users and guests on Android.](#login-api) * (Solo)
 * [To create a backend push notification API.](#push-notification-api) *(Solo)*
 * [To implement an app to interact with Estimote beacons.](#estimote-beacons) *(Solo)*
 * [To assist another member on backend map editor.](#map-editor)
