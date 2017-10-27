@@ -10,7 +10,7 @@ The hightlights for me in this project are...
 * [To create login API for users and guests on Android.](#login-api)            --Solo--
 * [To create a backend push notification API.](#push-notification-api)          --Solo--
 * [To implement an app to interact with Estimote beacons.](#estimote-beacons)   --Solo--
-* [To assist another member on backend map editor/constructing database.](#map-editor)
+* [To assist another back-end developer on map editor/constructing database.](#map-editor)
 
 
 ****************************************************************************************************************************************
