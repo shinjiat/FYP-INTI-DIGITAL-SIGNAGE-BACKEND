@@ -64,7 +64,8 @@ Can't show anything as the beacons have already returned to College :\
 ****************************************************************************************************************************************
 
 ## `Map Editor`
-Hostinger's subscription fees ran out, couldn't get any screenshot of it :\
+##### Updated source codes were all deleted on my [friend](https://github.com/buyback)'s hostinger account, I'm unable to get any screenshot from the original online hosted Website unfortunately.
+##### I am unable to replicate how the website would look like on localhost, due to missing too many updated files, table and hard-coded data on hostinger's database.
 
 [Back to top](#contents)
 ****************************************************************************************************************************************
