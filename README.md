@@ -56,15 +56,25 @@ So this basically means that the push notifications will only work, only when st
 ****************************************************************************************************************************************
 ****************************************************************************************************************************************
 ## `Estimote beacons`
+Please refer [here](https://drive.google.com/file/d/0Bx9LRWgMTzbZaHJvVHlrV1g2VmM/view?usp=sharing) for the screenshots.
 
-Can't show anything as the beacons have already returned to College :\
+#### Permissions
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
 
+To monitor beacons in rance
+    `Override
+    public void onServiceReady() {
+    beaconManager.startMonitoring(new BeaconRegion(
+    "monitored region",
+    UUID.fromString("B9407F30-F5F8-466E-AFF9-25556B57FE6D"), 22504, 48827));`
 [Back to top](#contents)
 ****************************************************************************************************************************************
 ****************************************************************************************************************************************
 
 ## `Map Editor`
-Screenshots were taken from my [FYP report](https://drive.google.com/file/d/0Bx9LRWgMTzbZaHJvVHlrV1g2VmM/view?usp=sharing).
+Please refer [here](https://drive.google.com/file/d/0Bx9LRWgMTzbZaHJvVHlrV1g2VmM/view?usp=sharing) for the screenshots.
 
 
 ##### Updated source codes were all deleted on my [friend](https://github.com/buyback)'s hostinger account, I'm unable to get any screenshot from the original online hosted Website unfortunately.
