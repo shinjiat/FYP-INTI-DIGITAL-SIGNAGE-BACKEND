@@ -64,6 +64,9 @@ Can't show anything as the beacons have already returned to College :\
 ****************************************************************************************************************************************
 
 ## `Map Editor`
+Screenshots were taken from my [FYP report](https://drive.google.com/file/d/0Bx9LRWgMTzbZaHJvVHlrV1g2VmM/view?usp=sharing).
+
+
 ##### Updated source codes were all deleted on my [friend](https://github.com/buyback)'s hostinger account, I'm unable to get any screenshot from the original online hosted Website unfortunately.
 ##### I am unable to replicate how the website would look like on localhost, due to missing too many updated files, table and hard-coded data on hostinger's database.
 
