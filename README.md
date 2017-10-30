@@ -64,11 +64,12 @@ Please refer [here](https://drive.google.com/file/d/0Bx9LRWgMTzbZaHJvVHlrV1g2VmM
     <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
 
 To monitor beacons in rance
-    ```Override
-    public void onServiceReady() {
-    beaconManager.startMonitoring(new BeaconRegion(
-    "monitored region",
-    UUID.fromString("B9407F30-F5F8-466E-AFF9-25556B57FE6D"), 22504, 48827))```;
+    > Override
+    > public void onServiceReady() {
+    > beaconManager.startMonitoring(new BeaconRegion(
+    > "monitored region",
+    > UUID.fromString("B9407F30-F5F8-466E-AFF9-25556B57FE6D"), 22504, 48827));
+    
 [Back to top](#contents)
 ****************************************************************************************************************************************
 ****************************************************************************************************************************************
