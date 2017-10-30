@@ -63,7 +63,7 @@ Please refer [here](https://drive.google.com/file/d/0Bx9LRWgMTzbZaHJvVHlrV1g2VmM
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
     <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
 
-To monitor beacons in rance
+#### To monitor beacons in range
 ```
     Override
     public void onServiceReady() {
@@ -71,7 +71,29 @@ To monitor beacons in rance
     "monitored region",
     UUID.fromString("B9407F30-F5F8-466E-AFF9-25556B57FE6D"), 22504, 48827));
 ```
+The above function will be able to pick up all the beacons that have the same UUID ("B9407F30-F5F8-466E-AFF9-25556B57FE6D"), in order for multiple beacons to work.
+
+We will change the major and minor to, ("B9407F30-F5F8-466E-AFF9-25556B57FE6D"), null, null).
+So that it will pick up whatever the beacon’s Major and Minor are.
+
+#### Display nearest beacon
+```
+    private List<String> placesNearBeacon(Beacon beacon) {
+    String beaconKey = String.format("%d:%d" , beacon.getMajor(), beacon.getMinor());
+    if(PLACES_BY_BEACONS.containsKey(beaconKey)) {
+    return PLACES_BY_BEACONS.get(beaconKey);
+    }
+    return Collections.emptyList();
+    }
+    ```
+This function will take a beacon object, then it will return a list of beacons, sorted with distance to the device.
+
+To access the nearest beacon, you just need the below code. The list is compute in another function where it will detect and store the beacons in a list and sort them with distance. Where list.get(0) is the first index and also the closest one.
+`Beacon nearestBeacon = list.get(0);`
     
+    
+##### Calculate distance
+   
 [Back to top](#contents)
 ****************************************************************************************************************************************
 ****************************************************************************************************************************************
