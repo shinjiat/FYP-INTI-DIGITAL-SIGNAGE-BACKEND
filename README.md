@@ -85,10 +85,11 @@ So that it will pick up whatever the beacon’s Major and Minor are.
     }
     return Collections.emptyList();
     }
-    ```
+```
 This function will take a beacon object, then it will return a list of beacons, sorted with distance to the device.
 
 To access the nearest beacon, you just need the below code. The list is compute in another function where it will detect and store the beacons in a list and sort them with distance. Where list.get(0) is the first index and also the closest one.
+
 `Beacon nearestBeacon = list.get(0);`
     
     
