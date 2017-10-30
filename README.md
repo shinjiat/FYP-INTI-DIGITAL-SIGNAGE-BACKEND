@@ -56,7 +56,7 @@ So this basically means that the push notifications will only work, only when st
 ****************************************************************************************************************************************
 ****************************************************************************************************************************************
 ## `Estimote beacons`
-Please refer [here](https://drive.google.com/file/d/0Bx9LRWgMTzbZaHJvVHlrV1g2VmM/view?usp=sharing) for the screenshots.
+Please refer [here](https://drive.google.com/file/d/0Bx9LRWgMTzbZaHJvVHlrV1g2VmM/view?usp=sharing) for more screenshots and a detailed report made by me for our FYP.
 
 #### Permissions
     <uses-permission android:name="android.permission.BLUETOOTH"/>
@@ -100,8 +100,7 @@ To access the nearest beacon, you just need the below code. The list is compute 
 ****************************************************************************************************************************************
 
 ## `Map Editor`
-Please refer [here](https://drive.google.com/file/d/0Bx9LRWgMTzbZaHJvVHlrV1g2VmM/view?usp=sharing) for the screenshots.
-
+Please refer [here](https://drive.google.com/file/d/0Bx9LRWgMTzbZaHJvVHlrV1g2VmM/view?usp=sharing) for more screenshots and a detailed report made by me for our FYP.
 
 ##### Updated source codes were all deleted on my [friend](https://github.com/buyback)'s hostinger account, I'm unable to get any screenshot from the original online hosted Website unfortunately.
 ##### I am unable to replicate how the website would look like on localhost, due to missing too many updated files, table and hard-coded data on hostinger's database.
