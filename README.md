@@ -92,8 +92,6 @@ To access the nearest beacon, you just need the below code. The list is compute 
 
 `Beacon nearestBeacon = list.get(0);`
     
-    
-##### Calculate distance
    
 [Back to top](#contents)
 ****************************************************************************************************************************************
