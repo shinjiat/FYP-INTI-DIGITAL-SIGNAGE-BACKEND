@@ -9,7 +9,7 @@ The hightlights for me in this project are...
 ## `Contents`
 * [To create login API for users and guests on Android.](#login-api)            --Solo--
 * [To create a backend push notification API.](#push-notification-api)          --Solo--
-* [To implement an app to interact with Estimote beacons and registration for Firebase API.](#estimote-beacons)   --Solo--
+* [To implement interaction with Estimote beacons and registration for Firebase API.](#estimote-beacons)   --Solo--
 * [To assist another back-end developer on map editor/constructing database.](#map-editor)
 
 
