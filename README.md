@@ -22,7 +22,7 @@ This login screen provide user login (require student login credentials) and gue
 #### Permissions     
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-*INTERNET        : To talk to API which then returns 0 or 1 based on the parameters(Username and Password) passed to API
+*INTERNET        : To call API which then returns 0 or 1 based on the parameters(Username and Password) passed to API
 READ_PHONE_STATE : To generate UUID based on IMEI which is then insert to online database in order to grant access to Guests*    
     
 #### User Login     
